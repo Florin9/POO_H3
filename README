@@ -1,0 +1,12 @@
+Dobos Claudiu-Florin, 323CD
+
+	Ma folosesc de pattern-ul Observer pentru a printa output-ul la consola si
+pentru a verifica pacientii internati, observatorii sunt notificati cand se
+schimba runda.
+	Fisierul de input este citit in clasa ERSimulator, salvez ordinea de start
+a doctorilor in campul startDoctors.
+	Cea mai mare parte din logica programului se afla in clasele RoundManager
+si in SimulationMasnager.
+	Am ales sa nu fac clase separate pentru fiecare tip de doctor, in schimb 
+am facut un Enum cu numele acestora si m-am folosit de switch pentru a le
+seta atributele.
